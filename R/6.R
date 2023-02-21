@@ -1,0 +1,5 @@
+install.packages("plotrix")
+s=c(1,1,2,1)
+library(plotrix)
+pie(s,labels = c("AA","BB","CC","DD"),main = "PieChart",col=rainbow(length(s)))
+pie3D(s)

@@ -1,0 +1,9 @@
+getwd()
+setwd("/home/sjcet/R")
+file<-read.csv("aaa1.csv")
+structure("file")
+file$dept
+file$id
+file$name
+file$salary
+file$start_date 
