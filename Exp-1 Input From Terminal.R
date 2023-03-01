@@ -1,0 +1,6 @@
+Name<-readline(prompt="Enter your Name : ")
+RegNo<-as.integer(readline(prompt="Enter a RegNo:"))
+College<-readline(prompt="Enter your College: ")
+print(paste("Name:",Name))
+print(paste("RegNo:" ,RegNo))
+print(paste("College Name:",College))
